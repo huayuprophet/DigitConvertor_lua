@@ -45,7 +45,7 @@ function mkcov.onClick(obj)
   end
 end
 function about.onClick(obj)
-  showdialog('关于页','计数单位转换，是一个能够实现完整的大小写数字转换的工具应用。\n（暂仅实现小写数字转大写）\nversion：0.0.1-Alpha\n关于大写数字的读数规范和争议，请点击主页“更多”按钮了解详情。\n挖坑：用户自定义数字和单位字符、大写数字转小写、其他。\n长按关于可联系作者。')
+  showdialog('关于页','计数单位转换，是一个能够实现完整的大小写数字转换的工具应用。\n（暂仅实现小写数字转大写）\nversion：0.0.1-Beta\n关于大写数字的读数规范和争议，请点击主页“更多”按钮了解详情。\n挖坑：用户自定义数字和单位字符、大写数字转小写、其他。\n长按关于可联系作者。')
 end
 function about.onLongClick(obj)
   showdialog('联系作者','qq：1410434961\nemail：huayuprophet@gmail.com')
